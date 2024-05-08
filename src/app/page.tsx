@@ -9,7 +9,7 @@ export default function Home() {
 		<main className="">
 			{isSignedIn && user ? (
 				<div>
-					<p>こんにちは、{user.firstName}さん</p>
+					<p>こんにちは、{user.firstName}さん!</p>
 					<SignOutButton>
 						<button
 							type="button"
